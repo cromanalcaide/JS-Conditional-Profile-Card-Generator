@@ -58,9 +58,9 @@ function render(variables = {}) {
                 : variables.github
             }"><i class="fab fa-github"></i></a></li>
             <li><a href="${
-              variables.github === null
+              variables.linkedin === null
                 ? "https://linkedin.com/4geeksacademy"
-                : variables.github
+                : variables.linkedin
             }"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="${
               variables.instagram === null
